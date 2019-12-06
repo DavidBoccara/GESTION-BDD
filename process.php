@@ -36,7 +36,7 @@ session_start();
 				if (mysqli_fetch_assoc($result)) 
 					{
 						$_SESSION['User']=$_POST['mail'];
-						header("location:wellcome1.php");
+						header("location:\Projet1-master\directeur");
 					}
 				else
 					{
